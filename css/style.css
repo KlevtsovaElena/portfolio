@@ -1,0 +1,242 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.d-flex{
+    display: flex;
+}
+.jc-center{
+    justify-content: center;
+}
+.w-100{
+    width: 100%;
+}
+.ta-center{
+    text-align: center;
+}
+.header{
+    background-color:gainsboro;
+    padding-top: 30px;
+}
+.container-info{
+    position: relative;
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.menu{
+    text-align: right;
+}
+.menu a{
+    padding-left: 10px;
+}
+.persona{
+    padding: 30px 30px 15px;
+    height: 200px;
+}
+.foto{
+    position: absolute;
+    top: 30%;
+    background-image: url('../img/foto/foto2.jpg');
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+    min-width: 280px;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+}
+.persona-info{
+    position: absolute;
+    right: 1%;
+    padding-left:  30px;
+    padding-right: 30px;
+    text-align: right;
+    width: 60%;
+
+}
+.wallpaper{
+    background-image: url('../img/works/wallpaper.png') ;
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid whitesmoke;
+}
+.animation-demo{
+    background-image: url('../img/works/animation-demo.png') ;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+.responsive{
+    background-image: url('../img/works/responsive-bootstrap.png') ;
+    background-size: cover;
+    background-position: center center;
+
+}
+.work-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 2px solid gainsboro;
+}
+.work-border{
+    border-radius: 7px 2px 7px 2px;
+    height: 228px;
+    width: 400px;
+}
+.screen-work{
+    padding: 0 10px 0;
+}
+.description{
+    padding: 0 10px 0;
+}
+
+#portfolio{
+    background-color: #fafafa;
+    padding: 120px 45px 30px;
+}
+#portfolio h1{
+    margin: 0;
+    padding-bottom: 30px;
+}
+.strelka{
+    width: 15%;
+    text-align: center;
+}
+.strelka-down{
+    display: none;
+}
+.description-tec{
+   width: 25%;
+}
+.technology, .contact-form{
+    background-color: #fafafa;
+    padding: 30px;
+    align-items: center;
+}
+.bootstrap-carousel, .forma{
+    width: 40%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 3px;
+}  
+.carousel-inner-ch{
+   border-radius: 3px;
+}
+.foot{
+    background-color: gainsboro;
+    text-align: center;
+    padding:15px;
+}
+.feed-back{
+    background-color: #fafafa;
+    padding: 40px;
+    align-items: center;
+}
+.forma{
+    background-color:  gainsboro;
+    padding: 30px;
+
+}
+.message-block{
+    width: 340px;
+    max-width: 340px;
+    border-radius: 5px;;
+    margin: 5px;
+}
+.btn-send{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+@media (max-width:1100px){
+    .technology, .contact-form{
+        flex-direction: column;
+    }
+    .strelka-down{
+        display: block;
+    }
+    .strelka{
+        display: none;
+    }
+
+    .description-tec{
+        width: 100%;
+        text-align: center;
+    }
+    
+        .bootstrap-carousel, .forma{  
+        width: 100%;
+    }
+}
+@media (max-width:900px){
+    #portfolio{
+       padding: 20px 25px 20px;
+    }
+    .persona{
+        height: 300px;
+    }
+    .foto{
+        top: 10%;
+    }
+}
+@media (max-width:760px){
+    .persona{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .container-info{
+        position: static;
+    }
+    .foto{
+        position: static;
+
+    }
+    .persona-info{
+        position: static;
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+    }
+    .work-item{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:550px){
+    .message-block{
+        max-width: 300px;
+    }
+}
+@media (max-width:460px){
+    .persona{
+        padding: 30px 10px 15px;
+    }
+    .message-block{
+        max-width: 200px;
+    }
+    .foto{
+        height: 150px;
+        width: 150px;
+        min-width: 150px;   
+    }
+    h1{font-size: 22px;}
+    h2{font-size: 20px;}
+    h3{font-size: 18px;}
+    h4{font-size:16px;}
+    p{font-size: 16px;}
+    .work-border{
+        max-height: 171px;
+        max-width: 300px; 
+    }
+}
+
