@@ -12,8 +12,11 @@ a{
 a:hover{
     color: gray;
 }
-.d-flex{
-    display: flex;
+button {
+   
+}
+.ai-center{
+    align-items: center;
 }
 .jc-center{
     justify-content: center;
@@ -26,7 +29,6 @@ a:hover{
 }
 .header{
     background-color:gainsboro;
-    padding-top: 30px;
 }
 .container-info{
     position: relative;
@@ -36,6 +38,7 @@ a:hover{
 }
 .menu{
     text-align: right;
+    padding: 20px 30px 20px 0;
 }
 .menu a{
     padding-left: 10px;
@@ -46,7 +49,7 @@ a:hover{
 }
 .foto{
     position: absolute;
-    top: 30%;
+    top: 45%;
     background-image: url('../img/foto/foto2.jpg');
     border-radius: 50%;
     height: 280px;
@@ -83,7 +86,12 @@ a:hover{
     background-image: url('../img/works/responsive-bootstrap.png') ;
     background-size: cover;
     background-position: center center;
-
+}
+.js-demo{
+    background-image: url('../img/works/JSdemo.png') ;
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid whitesmoke;
 }
 .work-item{
     display: flex;
@@ -102,6 +110,8 @@ a:hover{
 .description{
     padding: 10px 10px 0;
     text-align: left;
+    flex-grow: 0;
+    flex-basis: 50%;
 }
 
 #portfolio{
@@ -111,6 +121,7 @@ a:hover{
 #portfolio h1{
     margin: 0;
     padding-bottom: 30px;
+    border-bottom: 2px solid gainsboro;
 }
 .strelka{
     width: 15%;
@@ -142,8 +153,6 @@ a:hover{
 }
 .foot{
     background-color: gainsboro;
-    justify-content: center;
-    align-items: center;
     padding:15px;
 }
 .feed-back{
@@ -163,8 +172,21 @@ a:hover{
     margin: 5px;
 }
 .btn-send{
-    margin-top: 10px;
     border-radius: 5px;
+    margin: 10px;
+    width: 115px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 15px 20px 0 rgb(0 40 120 / 35%);
+    transition: 0.3s;
+    background-color: ghostwhite;
+}
+.btn-send:hover {
+    background-color: #fff4f0;
+    box-shadow: 0 15px 20px 0 rgb(236 49 183 / 40%);
+    transform: translateY(-2px);
+    cursor: pointer;
 }
 .git{
     width: 20px;
