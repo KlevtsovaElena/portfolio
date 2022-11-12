@@ -12,9 +12,6 @@ a{
 a:hover{
     color: gray;
 }
-button {
-   
-}
 .ai-center{
     align-items: center;
 }
@@ -73,6 +70,12 @@ button {
     background-size: cover;
     background-position: center center;
     border: 2px solid whitesmoke;
+}
+.usingAPI{
+    background-image: url('../img/works/usingAPI.png') ;
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid whitesmoke; 
 }
 .animation-demo{
     background-image: url('../img/works/animation-demo.png') ;
