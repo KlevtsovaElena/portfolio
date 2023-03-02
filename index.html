@@ -29,9 +29,42 @@
        </div>
     </header>
 
+
+   
+
+
     <div id="portfolio">
         <h1 class="ta-center">Portfolio</h1>
         <div class="container-works">
+            <div class="work-item">
+                <div class="screen-work">
+                    <a href="https://klevtsovaelena.github.io/OnlineShop2/site/client/" target="_blank">
+                        <div class="onlineShop work-border"></div>
+                    </a>
+                </div>
+                <div class="description">
+                    <div class="ta-center"><p>Совместный проект! Интернет-магазин с авторизацией, личным кабинетом, отправкой заказа из корзины и админ-панелью. 
+                        Серверная часть написана на PHP с использованием классов. Отправка GET и POST http-запросов. База данных - MySQL. Внимание: для рабты используется Docker!</p></div>
+                    <a href="https://github.com/KlevtsovaElena/OnlineShop2.git" target="_blank" class="d-flex ai-center justify-content-center">
+                        <div class="git"></div>
+                        <div>Code</div>
+                    </a>
+                </div>
+            </div>
+            <div class="work-item">
+                <div class="screen-work">
+                    <a href="https://klevtsovaelena.github.io/ChinaTelegramV2_0/" target="_blank">
+                        <div class="messenger work-border"></div>
+                    </a>
+                </div>
+                <div class="description">
+                    <div class="ta-center"><p>Совместный проект! Создание чата для нескольких пользователей, <br> отправка GET-запросов, обработка их PHP <br>с использованием веб-сервиса Replit.</p></div>
+                    <a href="https://github.com/KlevtsovaElena/ChinaTelegramV2_0.git" target="_blank" class="d-flex ai-center justify-content-center">
+                        <div class="git"></div>
+                        <div>Code</div>
+                    </a>
+                </div>
+            </div>
             <div class="work-item">
                 <div class="screen-work">
                     <a href="https://klevtsovaelena.github.io/TaskBoard/" target="_blank">
@@ -40,7 +73,7 @@
                     
                 </div>
                 <div class="description">
-                    <div class="ta-center"><p> В ПРОЦЕССЕ РАБОТЫ!!!</p></div>
+                    <div class="ta-center"><p>Создание Taskboard на JS для записи задач. <br>Рассылка уведомлений с помощью Телеграм-бота, <br>смена фона, сохранение пользовательских настроек в localStorage.</p></div>
                     <a href="https://github.com/KlevtsovaElena/TaskBoard.git" target="_blank" class="d-flex ai-center justify-content-center">
                         <div class="git"></div>
                         <div>Code</div>
@@ -222,15 +255,13 @@
         <h1>&#8681</h1>
     </div>
 
-    <form id="form1" method="GET" action="https://api.telegram.org/bot5762215975:AAFTUVjFrf4pwSEQakOTE-RpYusGBWNZe5U/sendMessage" target="_blank" class="forma">
-        <fieldset>
+    <div id="form1" target="_blank" class="forma" >
         <div><input name="chat_id" type="hidden" value="1752911328" placeholder="Введите ID юзера"></div>
-      <!-- <div><input name="email" type="email" placeholder="Ваш email"  class="message-block"></div>-->
-      <!--  <div><input name="text" type="text" placeholder="Введите текст" class="message-block"></div>-->
-      <textarea name="text" type="text" placeholder="Введите текст" class="message-block"></textarea>
-        </fieldset>
-        <div><button type="submit" class="btn-send" target="_blank">Отправить</button></div>
-    </form>
+        <div><input name="email" type="email" placeholder="Ваш email"  class="message-block"></div>
+        <textarea name="text" type="text" placeholder="Введите текст" class="message-block"></textarea>
+        <div><button type="submit" class="btn-send" target="_blank" onclick="sendMessage()">Отправить</button></div>
+        <div class="info"></div>
+    </div>
 </div>
 
 

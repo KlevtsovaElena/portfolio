@@ -65,6 +65,24 @@ a:hover{
     width: 60%;
 
 }
+
+.info {
+    color: red;
+}
+.onlineShop {
+    background-image: url('../img/works/onlineShop.png') ;
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);  
+}
+.messenger{
+    background-image: url('../img/works/chinaTelegram2.png') ;
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);
+}
 .taskBoard{
     background-image: url('../img/works/taskBoard.png') ;
     background-size: cover;
