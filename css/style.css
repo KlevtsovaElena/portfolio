@@ -176,6 +176,21 @@ a:hover{
     background-image: url('../img/icons/github.png');
     background-size: cover;
     margin: 5px;
+    transition: all 0.3s;
+}
+.git:hover {
+    transform: scale(1.2);
+}
+.contacts {
+    margin: 10px;
+}
+.contacts img {
+    width: 30px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.contacts img:hover {
+    transform: scale(1.2);
 }
 @media (max-width:1100px){
     .technology, .contact-form{
