@@ -69,68 +69,11 @@ a:hover{
 .info {
     color: red;
 }
-.onlineShop {
-    background-image: url('../img/works/onlineShop.png') ;
+.image-style {
     background-size: cover;
     background-position: center center;
     border: 2px solid whitesmoke;
     box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);  
-}
-.messenger{
-    background-image: url('../img/works/chinaTelegram2.png') ;
-    background-size: cover;
-    background-position: center center;
-    border: 2px solid whitesmoke;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);
-}
-.taskBoard{
-    background-image: url('../img/works/taskBoard.png') ;
-    background-size: cover;
-    background-position: center center;
-    border: 2px solid whitesmoke;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);
-}
-.SPA{
-    background-image: url('../img/works/SPA.png') ;
-    background-size: cover;
-    background-position: center center;
-    border: 2px solid whitesmoke;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);
-}
-.wallpaper{
-    background-image: url('../img/works/wallpaper.png') ;
-    background-size: cover;
-    background-position: center center;
-    border: 2px solid whitesmoke;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);
-}
-.usingAPI{
-    background-image: url('../img/works/usingAPI.png') ;
-    background-size: cover;
-    background-position: center center;
-    border: 2px solid whitesmoke; 
-    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);
-}
-.animation-demo{
-    background-image: url('../img/works/animation-demo.png') ;
-    background-size: cover;
-    background-position: center center;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);
-
-}
-
-.responsive{
-    background-image: url('../img/works/responsive-bootstrap.png') ;
-    background-size: cover;
-    background-position: center center;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);
-}
-.js-demo{
-    background-image: url('../img/works/JSdemo.png') ;
-    background-size: cover;
-    background-position: center center;
-    border: 2px solid whitesmoke;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.35);
 }
 .work-item{
     display: flex;
