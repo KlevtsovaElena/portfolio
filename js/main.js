@@ -1,8 +1,8 @@
 const portfolio = [
   { 
     "title": "botsMessagesMonitoring",
-    "hrefSite": "https://klevtsovaelena.github.io/OnlineShop2/site/client/",
-    "hrefRepository": "https://github.com/KlevtsovaElena/OnlineShop2.git",
+    "hrefSite": "",
+    "hrefRepository": "",
     "description": "Мониторинг сообщений ботов Telegram. Серверная часть написана на Go. Фронт реализован в 3 видах: <a href='https://klevtsovaelena.github.io/OnlineShop2/site/client/'>на чистом JS</a>, c использованием <a href=''>Vue3</a> и с использованием <a href=''>React</a>. Внимание: для рабты используется Docker!",
     "image": "url('img/works/bot.png')"
   },
