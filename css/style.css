@@ -1,3 +1,70 @@
+:root {
+    --border-form-elem: #ced4da;
+    --border-form-elem-focus: rgba(0, 0, 220, 0.35);
+    --shadow-form-elem-focus: rgba(0, 0, 255, 0.35);
+    --dark-color: #444444;
+}
+input, textarea,
+select, option {
+    border-radius: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--dark-color);
+}
+
+input {
+    appearance: none;
+}
+
+
+input::placeholder, textarea::placeholder {
+    opacity: 0.5;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    opacity: 0.5;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    opacity: 0.5;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+    opacity: 0.5;
+}
+
+input:focus, textarea:focus, select:focus, option:focus {
+    outline: none;
+}
+input:focus::placeholder, textarea:focus::placeholder {
+    color: transparent;
+}
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: transparent;
+}
+input:focus::-ms-input-placeholder, textarea:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+input, textarea, select {
+    padding: 8px;
+    min-width: 200px;
+    max-width: 700px;
+    width: 100%;
+    border: 1px solid var(--border-form-elem);
+    border-radius: var(--border-radius);
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: var(--border-form-elem-focus);
+    box-shadow: 0 0 0 0.8px var(--shadow-form-elem-focus);
+}
 
 body{
     padding: 0;
